@@ -79,3 +79,6 @@ exportar aplicativo const = () => {
 ## Documentação
 
 Confira a [documentação disponível aqui](https://jeremybarbet.github.io/react-native-modalize) completa para saber tudo sobre os adereços, métodos e exemplos de uso do Modalize.
+
+
+- Esse é um projeto compartilhado, os direitos não pertencem só a mim, mas a equipe.
