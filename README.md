@@ -1,12 +1,12 @@
-# Modalize
+# Modalizar
 
-[![npm version](https://badge.fury.io/js/react-native-modalize.svg)](https://badge.fury.io/js/react-native-modalize)
+[![versão npm](https://badge.fury.io/js/react-native-modalize.svg)](https://badge.fury.io/js/react-native-modalize)
 
-A highly customizable modal/bottom sheet that loves scrolling content.
+Uma planilha modal/inferior altamente personalizável que adora rolar o conteúdo.
 
-This component has been built with `react-native-gesture-handler` to address the common issue of **scrolling**, **swiping** and handling the **keyboard** behaviors, you can face with react-native's modal.
+Este componente foi construído com `react-native-gesture-handler` para resolver o problema comum de **rolar**, **deslizar** e lidar com os comportamentos do **teclado**, que você pode enfrentar com o modal do react-native .
 
-This component comes with a ScrollView, the default renderer, a FlatList or a SectionList. They are all three built-in and make your life easier, just pass your content and Modalize will handle the rest for you. You can also have the possibility to pass your own custom renderer.
+Este componente vem com um ScrollView, o renderizador padrão, um FlatList ou um SectionList. Eles são todos integrados e facilitam sua vida, basta passar seu conteúdo e Modalize cuidará do resto para você. Você também pode ter a possibilidade de passar seu próprio renderizador personalizado.
 
 <p align="left">
   <img src="https://user-images.githubusercontent.com/937328/80501705-458d2d80-895f-11ea-9667-d193c135cabf.gif" height="542" alt="Simple" />
