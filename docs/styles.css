@@ -1,0 +1,155 @@
+body {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+p {
+  line-height: 30px !important;
+}
+
+code {
+  color: #439bdf !important;
+}
+
+li {
+  padding: 2px 0;
+}
+
+pre > code,
+.sidebar-nav code {
+  color: inherit !important;
+}
+
+.markdown-section pre,
+.markdown-section pre > code {
+  color: #eee;
+  background-color: #353544;
+  border-radius: 6px;
+}
+
+.markdown-section code {
+  color: #eccb84;
+  font-size: 0.9rem;
+}
+
+.markdown-section p {
+  margin: 0.8em 0;
+}
+
+.sidebar-nav li img {
+  margin-right: 5px;
+
+  vertical-align: middle;
+}
+
+.sidebar-nav li {
+  margin: 0;
+}
+
+.sidebar-nav > ul > li > ul > li > .app-sub-sidebar {
+  margin-left: 4px !important;
+}
+
+.sidebar-nav > ul > li > ul > li > .app-sub-sidebar .app-sub-sidebar {
+  margin-left: 8px !important;
+}
+
+.sidebar-nav > ul > li > ul > li > .app-sub-sidebar > li {
+  padding-left: 10px;
+
+  background-color: #f5f8fa;
+  border-radius: 4px;
+}
+
+.sidebar-nav > ul > li > ul > li > .app-sub-sidebar > li::before {
+  content: '';
+}
+
+.app-sub-sidebar ul > li {
+  margin: 6px 0;
+
+  line-height: 22px;
+}
+
+.app-sub-sidebar li code,
+.app-sub-sidebar ul > li code {
+  font-family: inherit;
+}
+
+.markdown-section {
+  max-width: 930px;
+}
+
+.markdown-section h3 code {
+  font-size: 18px;
+}
+
+.markdown-section table {
+  display: inline-table;
+
+  width: 100%;
+}
+
+.markdown-section table thead {
+  text-align: left;
+
+  background-color: #f5f8fa;
+}
+
+.markdown-section table th,
+.markdown-section table td {
+  padding: 15px;
+}
+
+@media (min-width: 860px) {
+  .grid {
+    flex-direction: row !important;
+  }
+
+  .item {
+    width: 32% !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+/* Showcase */
+
+.app-store-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 80px 0 0;
+  padding: 0;
+}
+
+.app-store-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin-bottom: 60px;
+
+  width: 30%;
+
+  list-style: none;
+}
+
+.app-store-name {
+  margin: 20px 0 0 !important;
+
+  font-size: 20px !important;
+  font-weight: 600;
+}
+
+.app-store-links {
+  font-size: 16px;
+
+  margin-top: 5px !important;
+}
+
+.app-store-logo {
+  width: 120px;
+  height: 120px;
+
+  border-radius: 20px;
+}
