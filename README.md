@@ -20,63 +20,62 @@ Este componente vem com um ScrollView, o renderizador padrão, um FlatList ou um
   <img src="https://user-images.githubusercontent.com/937328/80501707-4625c400-895f-11ea-8436-8e89de3b437e.gif" height="542" alt="Slack" />
 </p>
 
-## Installation
+## Instalação
 
 ```bash
-yarn add react-native-modalize react-native-gesture-handler
+fio adicionar react-native-modalize react-native-gesture-handler
 ```
 
-<details>
-  <summary>iOS</summary>
+<detalhes>
+   <summary>iOS</summary>
 
 ```bash
 npx pod-install ios
 ```
 
-</details>
+</detalhes>
 
-<details>
-  <summary>Android</summary>
+<detalhes>
+   <summary>Android</summary>
 
-#### React Native <= 0.59
+#### Reagir nativo <= 0,59
 
-Follow [this guide](https://jeremybarbet.github.io/react-native-modalize/#/INSTALLATION) to complete the Android installation.
+Siga [este guia](https://jeremybarbet.github.io/react-native-modalize/#/INSTALLATION) para concluir a instalação do Android.
 
-#### React Native > 0.60
+#### Reagir nativo > 0,60
 
-You don't need to follow the guide mentioned above because autolinking from React already did the steps.
+Você não precisa seguir o guia mencionado acima porque o link automático do React já executou as etapas.
 
-</details>
+</detalhes>
 
-## Usage
+## Uso
 
-Here is a quick example, using the default ScrollView renderer.
+Aqui está um exemplo rápido, usando o renderizador ScrollView padrão.
 
 ```tsx
-import React, { useRef } from 'react';
-import { View, Text, TouchableOpacity } from 'react-native';
-import { Modalize } from 'react-native-modalize';
+importar React, {useRef} de 'react';
+importar {Visualizar, Texto, TouchableOpacity} de 'react-native';
+importar {Modalizar} de 'react-native-modalize';
 
-export const App = () => {
-  const modalizeRef = useRef<Modalize>(null);
+exportar aplicativo const = () => {
+   const modalizeRef = useRef<Modalize>(null);
 
-  const onOpen = () => {
-    modalizeRef.current?.open();
-  };
+   const onOpen = () => {
+     modalizeRef.current?.open();
+   };
 
-  return (
-    <>
-      <TouchableOpacity onPress={onOpen}>
-        <Text>Open the modal</Text>
-      </TouchableOpacity>
+   retornar (
+     <>
+       <TouchableOpacity onPress={onOpen}>
+         <Text>Abra o modal</Text>
+       </TouchableOpacity>
 
-      <Modalize ref={modalizeRef}>...your content</Modalize>
-    </>
-  );
+       <Modalize ref={modalizeRef}>...seu conteúdo</Modalize>
+     </>
+   );
 };
 ```
 
-## Documentation
+## Documentação
 
-Please check out the full [documentation available here](https://jeremybarbet.github.io/react-native-modalize) to find all about the props, methods and examples of Modalize's usage.
-# react_native_master
+Confira a [documentação disponível aqui](https://jeremybarbet.github.io/react-native-modalize) completa para saber tudo sobre os adereços, métodos e exemplos de uso do Modalize.
